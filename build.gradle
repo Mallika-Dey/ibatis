@@ -26,6 +26,9 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+//	implementation 'org.apache.ibatis:ibatis-sqlmap:3.0-beta-10'
+	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3'
+
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.mysql:mysql-connector-j'
 	annotationProcessor 'org.projectlombok:lombok'
